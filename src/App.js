@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import {useState} from 'react'
 import './App.css';
+import Router from './config/router';
+import Dashboard from './views/Dashboard/Dashboard';
+import Header from './views/Header/Header';
+import Contact from './views/Contact/Contact';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const [screen , setScreen] = useState('Dashboard')
+
+// const change = () => {
+//   setScreen()
+// }
+
+
+  return ( <div>
+
+    <Header/>
+
+  </div>
+    
   );
 }
 
