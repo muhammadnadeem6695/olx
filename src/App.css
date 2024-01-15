@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&family=Roboto:wght@300&display=swap');
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
 
 * {
   margin: 0;
@@ -27,10 +31,17 @@
 }
 
 .upper {
+<<<<<<< HEAD
   width: calc(100% - 350px);
   /* width: 100%; */
   height: 45px;
   margin: 10px 175px 0px 175px;
+=======
+  width: calc(100% - 450px);
+  /* width: 100%; */
+  height: 45px;
+  margin: 10px 225px 0px 225px;
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   /* background-color: rgb(224, 163, 163); */
   display: flex;
   align-items: center;
@@ -93,10 +104,17 @@
 }
 
 .navbar {
+<<<<<<< HEAD
   width: calc(100% - 350px);
   /* width: 100%; */
   height: 70px;
   margin: 0px 175px 0px 175px;
+=======
+  width: calc(100% - 450px);
+  /* width: 100%; */
+  height: 70px;
+  margin: 0px 225px 0px 225px;
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   /* background-color: rgb(218, 218, 218); */
   display: flex;
   align-items: center;
@@ -151,7 +169,11 @@
   justify-content: center;
 } */
 
+<<<<<<< HEAD
 .serach-bar-larger {
+=======
+.serach-bar-larger{
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -161,8 +183,12 @@
   height: 50px;
   background-color: white;
 }
+<<<<<<< HEAD
 
 .serach-bar-larger>input {
+=======
+.serach-bar-larger > input{
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   width: 730px;
   height: 100%;
   font-size: 18px;
@@ -170,7 +196,10 @@
   border: none;
   outline: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
 .search-bar-box {
   display: flex;
   align-items: center;
@@ -181,12 +210,20 @@
   /* margin-right: 10px; */
   background-color: #002F34;
 }
+<<<<<<< HEAD
 
 .serach-bar-larger>.search-bar-box>.search-icon2 {
   color: white;
 }
 
 .login-Btn-Box {
+=======
+.serach-bar-larger > .search-bar-box > .search-icon2{
+color: white;
+}
+
+.login-Btn-Box{
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,14 +231,22 @@
   height: 100%;
   width: 60px;
 }
+<<<<<<< HEAD
 
 .login-Btn-Box>a {
+=======
+.login-Btn-Box > a{
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   font-size: 18px;
   color: #002F34;
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .sell-plus-Box {
+=======
+.sell-plus-Box{
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   display: flex;
   align-items: center;
   justify-content: center;
@@ -221,6 +266,7 @@
   border-image-slice: 1; */
   /* background: linear-gradient(rgb(218, 161, 161) , rgb(234, 125, 225)) padding-box,
   linear-gradient(to right ,#ffce32, #23e5db, #3a77ff); */
+<<<<<<< HEAD
   border-radius: 40px;
 
 }
@@ -233,10 +279,23 @@
 }
 
 .sell-plus-Box>span {
+=======
+  border-radius: 40px ;
+
+}
+.sell-plus-Box > .plus-icon{
+  font-size: 17px;
+  color: #002F34;
+  font-weight: 700;
+  margin-right:5px ;
+}
+.sell-plus-Box > span{
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
 
   font-size: 17px;
   color: #002F34;
   font-weight: 700;
+<<<<<<< HEAD
 }
 .apiDataMainDiv{
 display: flex;
@@ -316,4 +375,6 @@ margin-top: 20px;
 .rating > span{
   font-size: 12px;
 padding-left: 20px;
+=======
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
 }

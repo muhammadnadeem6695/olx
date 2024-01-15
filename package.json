@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "olx-clone",
+=======
+  "name": "olx",
+>>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   "version": "0.1.0",
   "private": true,
   "dependencies": {
