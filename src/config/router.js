@@ -1,7 +1,8 @@
-<<<<<<< HEAD
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Header from '../views/Header/header'
+import Header from '../views/Header/Header'
 import Showdata from '../views/Cards/cards';
+import Register from '../views/Auth/register';
+import Login from '../views/Auth/login';
 
 
 const router = createBrowserRouter([
@@ -11,28 +12,24 @@ const router = createBrowserRouter([
       element: <Header />,
     },
     {
-      path: "/cards",
+      path: "/",
       element: <Showdata />,
     },
- 
-=======
-import {createBrowserRouter,RouterProvider,} from "react-router-dom";
-
-const router = createBrowserRouter([
     {
-      path: "/",
-      element: <div>Hello world!</div>,
+      path: "register",
+      element: <Register />,
     },
->>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
+    {
+      path: "login",
+      element: <Login />,
+    },
+ 
   ]);
 
   function Router(){
 
     return  <RouterProvider router={router} />
-<<<<<<< HEAD
     
-=======
->>>>>>> d7c2a723770ed9e72b58da23d5d2a4dfde19a9de
   }
 
   export default Router

@@ -1,10 +1,13 @@
+import { useNavigate } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCar, faCity,faMagnifyingGlass, faAngleDown,faPlus} from '@fortawesome/free-solid-svg-icons'
 import olxBlue from '../../assets/OLX-Logo.png'
-import olxBlack from '../../assets/olx-logo-vector.png'
+import olxBlack from '../../assets/OLX-Symbol.png'
 
 
 function Header(){
+const navigate =useNavigate()
+
 
 
     return (
@@ -35,7 +38,7 @@ function Header(){
 </div>
 
 {/* 4 Login Button */}
-<div className='login-Btn-Box'><a href='#'>Login</a></div>
+<div className='login-Btn-Box' onClick={()=>navigate('/register')}><a href='#'>Login</a></div>
 
 {/* 5 Sell Button */}
 <div className='sell-plus-Box'>
