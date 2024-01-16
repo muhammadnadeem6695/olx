@@ -8,8 +8,6 @@ import olxBlack from '../../assets/OLX-Symbol.png'
 function Header(){
 const navigate =useNavigate()
 
-
-
     return (
         <div className="App-header">
       <div className='upper'>
